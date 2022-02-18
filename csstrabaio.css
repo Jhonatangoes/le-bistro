@@ -1,0 +1,51 @@
+*{
+    color: black;
+    text-align: left;
+}
+
+#idfundo
+{
+    background-color: lightblue;
+}
+
+/*remover maracadores, margem e padding da lista */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:  hidden;
+    background-color: lightblue;
+/*posicionar menu no inicio da pagina */
+position: fixed;
+top: 0;
+width: 100%;
+}
+li {
+   float: left;
+   border-right: 1px solid black ;
+    }
+li a {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(14, 13, 13);
+   
+}
+/* muda a cor do link ao passar o mouse */
+    li a:hover {
+        background-color: ;
+        color: rgb(199, 51, 51);
+    }
+li:last-child{
+    border-right: none;
+}
+.links{
+    font-size: x-large;
+}
+#lebis{
+    width: 600px;
+    height: 400px;
+    padding: 0%;
+    margin: 0%;
+}
